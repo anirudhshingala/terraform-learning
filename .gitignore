@@ -1,0 +1,12 @@
+# local terraform
+**/.terraform/*
+
+# TF state
+*.tfstate
+*.tfstate.*
+
+# variable
+*.tfvars
+
+#ignoring lock file
+.terraform.lock.hcl
